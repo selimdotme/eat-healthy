@@ -24,7 +24,8 @@
     font-weight: 700;
     margin-bottom: 20px;
 }
-.hero-color{
+.hero-color,
+.f-color{
     color:#FBA24F;
 }
 .hero-des{
@@ -89,3 +90,91 @@
     margin-bottom: 60px;
 }
 /* about section style end here */
+
+/* reciples section style start here */
+.reciples-container{
+    max-width: 1200px;
+    margin: 50px auto;
+}
+.reciples-text{
+    max-width: 800px;
+    margin: 30px auto;
+}
+.reciples-title{
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.reciples-des{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.reciples-boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.box-1,
+.box-2{
+    width: 550px;
+    padding: 15px;
+    border:1px solid gray;
+    border: 8px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.486);
+}
+.box-1 img,
+.box-2 img{
+    width: 100%;
+}
+.box-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.box-des{
+    font-size: 16px;
+}
+/* reciples section style end here */
+/* sub section style start here */
+.subscribers-container{
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 50px 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px gray;
+}
+.sub-title{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.sub-des{
+    font-size: 16px;
+    font-weight: 400;
+}
+/* sub section style end here */
+/* footer style start here */
+footer{
+    background-color: #0B0D17;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-title{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    color:#fff;
+    padding-top: 80px;
+}
+.footer-des{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 120px;
+    color:#fff;
+}
+/* footer style end here */

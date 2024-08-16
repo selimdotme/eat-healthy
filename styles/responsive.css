@@ -34,5 +34,21 @@
 
     }
     /* about section responsive end */
-    
+    .reciples-boxes{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .box-1,
+    .box-2{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .subscribers-container{
+        flex-direction: column;
+        gap:30px;
+    }
+    .sub-des,
+    .sub-title{
+        text-align: center;
+    }
 }
