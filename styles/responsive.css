@@ -8,12 +8,31 @@
         width:90%;
         margin: 0 auto;
     }
+    .right-contain{
+        width: 90%;
+        margin: 0 auto;
+    }
     .hero-title{
         font-size: 2.5rem;
     }
+    .img-2{
+        width:100%;
+    }
     .img-1{
-        left:30px;
+        width:100%;
+        right: 0px;
     }
     /* header responsive end here */
+
+    /* about section responsive start */
+    .about{
+        width: 100%;
+    }
+    .container{
+        flex-direction: column;
+        gap:30px
+
+    }
+    /* about section responsive end */
     
 }
